@@ -1,3 +1,16 @@
+########## added by me ##########
+# ignore dataset, spectrogram and results folder
+
+AudioMNIST-master/
+spectrograms/
+splits/
+results/
+
+#ignore logfile
+events.log
+
+########## end added by me ##########
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

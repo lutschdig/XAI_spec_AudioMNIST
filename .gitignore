@@ -8,6 +8,9 @@ results/
 
 #ignore logfile
 events.log
+Model_architecture_digit.png
+Model_architecture_gender.png
+Gender_Participants.txt
 
 ########## end added by me ##########
 

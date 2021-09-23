@@ -5,7 +5,7 @@ This repository was created for the Master-Thesis with the title:
 Note: some code snippets were adopted or are based on other repositories/sources, which is stated in the concerned cells. 
 
 ## Requirements
-* All experiments were conducted Google Colab (recommended Pro+ high Ram and GPU)
+* All experiments were conducted with Google Colab (recommended Pro+ with high Ram and GPU)
 * Script 2 requires the outputs of script 1
 * python: numpy, pandas, tensorflow, keras, sklearn, IPython, lime, skimage, sys, math, time, logging, glob, os, scipy, h5py, json, librosa, multiprocessing, urllib, io, zipfile, pickle, matplotlib, PIL
 

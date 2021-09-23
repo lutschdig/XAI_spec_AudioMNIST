@@ -28,8 +28,8 @@ Note: some code snippets were adopted or are based on other repositories/sources
 * Please refer to the Import sections of the two ipynb notebooks for a list of all necessary packages
 
 ## Usage
-Markup: 1. eins 
-	2. zwei
+1. eins 
+2. zwei
 
 
 First the models must be trained and evaluated with the first script [`01_Preprocessing_Training_Evaluation.ipynb`](01_Preprocessing_Training_Evaluation.ipynb):

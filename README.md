@@ -7,6 +7,17 @@ Note: some code snippets were adopted or are based on other repositories/sources
 
 The folder structure, which will be created with the scripts, is as follows:
 
+
+    .
+    ├── build                   # Compiled files (alternatively `dist`)
+    ├── docs                    # Documentation files (alternatively `doc`)
+    ├── src                     # Source files (alternatively `lib` or `app`)
+    ├── test                    # Automated tests (alternatively `spec` or `tests`)
+    ├── tools                   # Tools and utilities
+    ├── LICENSE
+    └── README.md
+
+
 .XAI_spec_AudioMNIST				# root folder of the repository
 ├──AudioMNIST-master				# downloaded dataset
 |	├──data

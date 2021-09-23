@@ -5,47 +5,7 @@ This repository was created for the Master-Thesis with the title:
 ## Description
 Note: some code snippets were adopted or are based on other repositories/sources, which is stated in the concerned cells. 
 
-The folder structure, which will be created with the scripts, is as follows:
 
-
-    XAI_spec_AudioMNIST				# root folder of the repository
-    ├──AudioMNIST-master				# downloaded dataset
-    |	├──data
-    |	|	├──01				# contains .wav files (raw data) of participant 01
-    |	|	├──...				# same for each of the participants
-    |	|	└──audioMNIST_meta.txt		# contains meta information on the participants							
-    |	└──...					# other files and folders are irrelevant
-    ├──results
-    |	├──evaluation
-    |	|	├──confusionMatrix_digit_0.csv	# contains the confusion matrix for label digit and fold 0
-    |	|	├──...				# same for each label and fold, additionally mean for each label
-    |	|	├──evalutation_digit_0.csv	# contains performance indicators (accuracy) for label digitand fold 0	
-    |	|	└──...				# same for each label and fold, additionally mean for each label
-    |	├──history
-    |	|	├──AlexNet_digit_0.pkl		# contains the history of label digit and fold 0
-    |	|	└──...				# same for each label and fold
-    |	├──models
-    |	|	├──AlexNet_digit_0.h5		# contains the model of label digit and fold 0
-    |	|	└──...				# same for each label and fold
-    |	├──plots
-    |	|	├──loss				# contains the loss plots as .png files
-    |	|	├──spectrograms			# contains the spectrograms as .png files
-    |	|	├──waveform			# contains the waveform plots as .png files
-    |	|	└──xai				# contains the explanations as .png files for Grad-CAM and LIME
-    |	└──predictions
-    |		├──predictions_digit_0.csv	# contains the predictions of label digit and fold 0
-    |		└──...				# same for each label and fold	
-    ├──spectrograms
-    |	├──01					# contains .hdf5 files (spectrograms) of participant 01
-    |	└──...					# same for each of the participants
-    ├──splits					# here: split = fold
-    |	├──AlexNet_digit_0_test.txt		# contains paths to spectrograms (.hdf5 files) for label digit, fold 0 and testsplit
-    |	└──...					# same for each label, fold and split
-    ├──01_Preprocessing_Training_Evaluation.ipynb	# script 1 contains code for downloading dataset, creating spectrograms (.hdf5 files), training models, 
-    ├──02_XAI_methods.ipynb				# script 2 contains code for creating outputs as .png files (waveform plots, spectrograms, Grad-CAM, LIME) 
-    ├──events.log					# contains logs, produced while running the code
-    ├──LICENSE
-    └──README.md
 
 ## Requirements
 * All experiments were conducted Google Colab (recommended Pro+ high Ram and GPU)
@@ -94,6 +54,44 @@ c) For filtered spectrograms: Outputs for several spectrograms, filtered by wron
 Due to the large amount of data, the results are not synchronized in this repository. However, the results are presented and discussed in the Master-Thesis.
 
 
+## Folder structure (will be created with the scripts):
 
-
+    XAI_spec_AudioMNIST				# root folder of the repository
+    ├──AudioMNIST-master				# downloaded dataset
+    |	├──data
+    |	|	├──01				# contains .wav files (raw data) of participant 01
+    |	|	├──...				# same for each of the participants
+    |	|	└──audioMNIST_meta.txt		# contains meta information on the participants							
+    |	└──...					# other files and folders are irrelevant
+    ├──results
+    |	├──evaluation
+    |	|	├──confusionMatrix_digit_0.csv	# contains the confusion matrix for label digit and fold 0
+    |	|	├──...				# same for each label and fold, additionally mean for each label
+    |	|	├──evalutation_digit_0.csv	# contains performance indicators (accuracy) for label digitand fold 0	
+    |	|	└──...				# same for each label and fold, additionally mean for each label
+    |	├──history
+    |	|	├──AlexNet_digit_0.pkl		# contains the history of label digit and fold 0
+    |	|	└──...				# same for each label and fold
+    |	├──models
+    |	|	├──AlexNet_digit_0.h5		# contains the model of label digit and fold 0
+    |	|	└──...				# same for each label and fold
+    |	├──plots
+    |	|	├──loss				# contains the loss plots as .png files
+    |	|	├──spectrograms			# contains the spectrograms as .png files
+    |	|	├──waveform			# contains the waveform plots as .png files
+    |	|	└──xai				# contains the explanations as .png files for Grad-CAM and LIME
+    |	└──predictions
+    |		├──predictions_digit_0.csv	# contains the predictions of label digit and fold 0
+    |		└──...				# same for each label and fold	
+    ├──spectrograms
+    |	├──01					# contains .hdf5 files (spectrograms) of participant 01
+    |	└──...					# same for each of the participants
+    ├──splits					# here: split = fold
+    |	├──AlexNet_digit_0_test.txt		# contains paths to spectrograms (.hdf5 files) for label digit, fold 0 and testsplit
+    |	└──...					# same for each label, fold and split
+    ├──01_Preprocessing_Training_Evaluation.ipynb	# script 1 contains code for downloading dataset, creating spectrograms (.hdf5 files), training models, 
+    ├──02_XAI_methods.ipynb				# script 2 contains code for creating outputs as .png files (waveform plots, spectrograms, Grad-CAM, LIME) 
+    ├──events.log					# contains logs, produced while running the code
+    ├──LICENSE
+    └──README.md
 

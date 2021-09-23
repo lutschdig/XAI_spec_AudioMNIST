@@ -4,6 +4,8 @@ This repository was created for the Master-Thesis with the title:
 
 ## Description
 
+The folder structure is as follows:
+
 Note: some code snippets were adopted or are based on other repositories/sources, which is stated in the concerned cells. 
 
 ## Requirements
@@ -28,17 +30,23 @@ Note: some code snippets were adopted or are based on other repositories/sources
 * Please refer to the Import sections of the two ipynb notebooks for a list of all necessary packages
 
 ## Usage
-1. eins 
-2. zwei
+1. Clone or download this repository into your Google Drive root folder (if you use a subfolder, you have to adjust the root_path in the ipynb notebooks)
+2. Run all cells of the first script  [`01_Preprocessing_Training_Evaluation.ipynb`](01_Preprocessing_Training_Evaluation.ipynb) within Google Colab* in order to:
+- Download dataset
+- Create spectrograms
+- Train models (K-Fold for two labels digit and gender)
+- Evaluate models (accuracy, confusion matrix and loss plots)
+3. Run all cells above the section "Set parameters and run script" of the second script [`01_Preprocessing_Training_Evaluation.ipynb`](01_Preprocessing_Training_Evaluation.ipynb) within Google Colab
+4. 
 
-
-First the models must be trained and evaluated with the first script [`01_Preprocessing_Training_Evaluation.ipynb`](01_Preprocessing_Training_Evaluation.ipynb):
-Just run all cells. If you run out of memory at a certain point, just rerun all cells.
 
 Afterwards the explanations can be created and explored with the second script [`01_Preprocessing_Training_Evaluation.ipynb`](01_Preprocessing_Training_Evaluation.ipynb)
 
+*it is highly recommended to use Google Colab Pro+ with GPU runtime and high RAM setup, more information in the script!
+
 ## Results
 Due to the large amount of data, the results are not synchronized in this repository. However, the results are presented and discussed in the Master-Thesis.
+
 
 
 

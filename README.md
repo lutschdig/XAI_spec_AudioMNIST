@@ -2,10 +2,7 @@
 This repository was created for the Master-Thesis with the title:
 ***Explainable artificial intelligence (XAI) for spectrogram-based classification of univariate time series data: A survey and experimental study***
 
-## Description
 Note: some code snippets were adopted or are based on other repositories/sources, which is stated in the concerned cells. 
-
-
 
 ## Requirements
 * All experiments were conducted Google Colab (recommended Pro+ high Ram and GPU)
@@ -24,7 +21,6 @@ Note: some code snippets were adopted or are based on other repositories/sources
 * scipy
 * librosa
 * multiprocessing
-* glob
 
 * Please refer to the Import sections of the two ipynb notebooks for a list of all necessary packages
 

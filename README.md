@@ -18,7 +18,8 @@ The folder structure, which will be created with the scripts, is as follows:
     └── README.md
 
 
-.XAI_spec_AudioMNIST				# root folder of the repository
+XAI_spec_AudioMNIST				# root folder of the repository
+.
 ├──AudioMNIST-master				# downloaded dataset
 |	├──data
 |	|	├──01				# contains .wav files (raw data) of participant 01

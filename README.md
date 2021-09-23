@@ -22,6 +22,32 @@ Note: some code snippets were adopted or are based on other repositories/sources
 * librosa
 * multiprocessing
 
+IPython
+lime
+skimage
+sys
+math
+time
+logging
+numpy
+glob
+os
+scipy
+h5py
+json
+librosa
+multiprocessing
+urllib.request
+io
+zipfile
+tensorflow
+keras
+pickle
+pandas
+sklearn
+matplotlib
+PIL
+
 * Please refer to the Import sections of the two ipynb notebooks for a list of all necessary packages
 
 ## Usage

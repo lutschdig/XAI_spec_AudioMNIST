@@ -7,48 +7,7 @@ Note: some code snippets were adopted or are based on other repositories/sources
 ## Requirements
 * All experiments were conducted Google Colab (recommended Pro+ high Ram and GPU)
 * Script 2 requires the outputs of script 1
-
-* python
-* tensorflow
-* numpy
-* pandas
-* Matplotlib
-* h5py
-* sklearn
-* Keras
-* skimage
-* lime-0.2.0.1
-* scipy
-* librosa
-* multiprocessing
-
-IPython
-lime
-skimage
-sys
-math
-time
-logging
-numpy
-glob
-os
-scipy
-h5py
-json
-librosa
-multiprocessing
-urllib.request
-io
-zipfile
-tensorflow
-keras
-pickle
-pandas
-sklearn
-matplotlib
-PIL
-
-* Please refer to the Import sections of the two ipynb notebooks for a list of all necessary packages
+* python: numpy, pandas, tensorflow, keras, sklearn, IPython, lime, skimage, sys, math, time, logging, glob, os, scipy, h5py, json, librosa, multiprocessing, urllib, io, zipfile, pickle, matplotlib, PIL
 
 ## Usage
 1. Clone or download this repository into your Google Drive root folder (if you use a subfolder, you have to adjust the root_path in the ipynb notebooks)
@@ -60,9 +19,9 @@ PIL
 - Evaluate models (accuracy, confusion matrix and loss plots)
 3. Run all cells above the section "Set parameters and run script" of the second script [`01_Preprocessing_Training_Evaluation.ipynb`](01_Preprocessing_Training_Evaluation.ipynb) within Google Colab
 4. Use the three possibilites of section "Set parameters and run script" to create explanations (detailed information on the options are explained in the script):
-a) For several spectrograms: Output examples for each model (see options in the script)
-b) For a specific spectrogram/model: Outputs for one spectrogram 
-c) For filtered spectrograms: Outputs for several spectrograms, filtered by wrongly or correctly predicted
+- For several spectrograms: Output examples for each model (see options in the script)
+- For a specific spectrogram/model: Outputs for one spectrogram 
+- For filtered spectrograms: Outputs for several spectrograms, filtered by wrongly or correctly predicted
 5. Additionally, section "Input information" can be used to:
 - print a table with wrongly or correctly predicted spectrograms of a specific model
 - print which participants are in the test split of a specific model

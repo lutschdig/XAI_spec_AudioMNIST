@@ -1,5 +1,5 @@
 # XAI_spec_AudioMNIST
-This repository was created for the Master-Thesis with the title:
+
 ***Explainable artificial intelligence (XAI) for spectrogram-based classification of univariate time series data: A survey and experimental study***
 
 Note: some code snippets were adopted or are based on other repositories/sources, which is stated in the concerned cells. 
@@ -32,7 +32,7 @@ Note: some code snippets were adopted or are based on other repositories/sources
 *it is highly recommended to use Google Colab Pro+ with GPU runtime and high RAM setup, more information at the beginning of the script!
 
 ## Results
-Due to the large amount of data, the results are not synchronized in this repository. However, the results are presented and discussed in the Master-Thesis.
+Due to the large amount of data, the results are not synchronized in this repository. However, some example outputs are illustrated in  [`outputs_digit.png`](outputs_digit.png) and [`outputs_gender.png`](outputs_gender.png).
 
 
 ## Folder structure (will be created with the scripts):
